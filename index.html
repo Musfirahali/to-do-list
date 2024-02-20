@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="to-do-list.png">
+    <!-- <link rel="stylesheet" href="https://www.flaticon.com/search?word=to-do%20app"> -->
+</head>
+<body>
+    <div class="wrapper show-category">
+        <div class="screen-background"></div>
+        <div class="screen home-screen">
+         <div class="head-wrapper">
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars fa-lg"></i>
+            </div>
+        <div class="welcome">
+        <div class="content">
+             <h1>Hello Musfirah</h1>
+              <p>Today you have <span class="totalTasks">5</span> tasks To-Do</p>
+         </div>
+         <div class="img">
+        <div class="backdrop"></div>
+     <img  src="accountant.png" alt="">
+    </div>
+     </div>
+          
+    </div>
+
+    <!-- categories  -->
+    <div class="categories-wrapper">
+        <div class="categories">
+            <div class="category">
+                <div class="left">
+                    <img src="accountant.png" alt="personal">
+                    <div class="content">
+                        <h1>Personal</h1>
+                        <p>5 Task</p>
+                    </div>
+                </div>
+                <div class="options">
+                    <div class="toggle-btn">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+   
+<!-- tasks screen -->
+<div class="screen screen-category">
+    <div class="head-wrapper">
+        <div class="back-btn">
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <div class="options">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+    </div>
+    <div class="category-details">
+        <img src="accountant.png" alt="" id="category-img">
+        <div class="details">
+            <p class="category-tasks">8 tasks</p>
+            <h1 class="category-title">Personal</h1>
+        </div>
+    </div>
+       <div class="tasks-wrapper">
+        <div class="tasks">
+            <div class="task-wrapper">
+                <label for="task" class="task">
+                    <input type="checkbox" name="" id="task">
+                    <span class="checkmark"><i class="fa-solid fa-check"></i></span>
+                    <p>Buy a new car</p>
+                </label>
+                <div class="delete"><i class="fa-solid fa-trash"></i></div>
+            </div>
+        </div>
+        </div>
+</div>
+    <!-- add task btn -->
+    <div class="add-task-btn">
+        <i class="fa-solid fa-plus"></i>
+    </div>
+    <!-- backdrop -->
+    <div class="blank-backdrop"></div>
+    <!-- add task form -->
+    <div class="add-task">
+
+        <div class="add-task-backdrop"></div>
+        <h1 class="heading">Add Task</h1>
+        <div class="input-group">
+            <label for="task-input">Task</label>
+            <input type="text" name="" id="task-input">
+        </div>
+        <div class="input-group">
+            <label for="category-select">Category</label>
+            <select name="" id="category-select">
+                <option value="category">Select Category</select></option>
+            </select>
+        </div>
+        <div class="btns">
+            <button class="cancel-btn">Cancel</button>
+            <button class="add-btn">Add</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
