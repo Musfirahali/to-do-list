@@ -7,14 +7,14 @@
     border: transparent;
     border-radius: 25% 10%;
      width: 3rem;
-     box-shadow: 5px -1px 10px rgb(161, 237, 217);
+     box-shadow: 5px -1px 10px #a1edd9;
     
      margin-left: 1rem;
      margin-bottom: 0.2rem;
    
 }
 .category:hover img{
-    box-shadow: 5px -4px 10px rgb(53, 173, 125) ;
+    box-shadow: 5px -4px 10px #35ad7d ;
 }
 body{
     max-width: 100%;
@@ -82,7 +82,7 @@ body{
     z-index: -1 ;
     transform: translateX(-50%);
     border-radius: 0 0 50% 50%;
-    background-color: rgb(52, 206, 155);
+    background-color: rgba(26, 226, 159, 0.741);
     transition: all 0.3s;
 }
 .head-wrapper{
@@ -152,7 +152,7 @@ body{
     
 }
 .categories .category{
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     border-radius: 0.5rem;
     padding: 0.8rem 0.5rem ;
     cursor: pointer;
@@ -165,7 +165,7 @@ body{
 }
 .categories .category:hover{
     transform: translateY(-5px);
-    box-shadow:0 10px 20px rgba(92, 86, 86, 0.686) ;
+    box-shadow:0 10px 20px #5c5656af ;
     
 }
 .category .left{
@@ -412,7 +412,7 @@ body{
     cursor: pointer;
 }
 .btns button.add-btn{
-    background-color:rgba(23, 239, 167, 0.618) ;
+    background-color:#17efa79e ;
 }
 .add-task-backdrop{
     position: absolute;
